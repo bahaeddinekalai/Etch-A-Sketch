@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+    <title>Etch A Sketch</title>
+</head>
+
+<body>
+    <div class="header">
+        Etch A Sketch
+    </div>
+    <div class="container">
+        <div class="param">
+            <div class="param__item">
+                <label for="size">Size</label>
+                <input class="input-number" type="number" id="size" min="1" max="100" value="16">
+                <button id="generate-grid">generate</button>
+            </div>
+            <div class="param__item">
+                <label for="color">Color</label>
+                <input class="input-color" type="color" id="color" value="#000000">
+                <button id="auto-color">Auto</button>
+            </div>
+            <div class="param__item">
+                <button id="reset">Reset</button>
+            </div>
+        </div>
+        <div class="grid">
+
+        </div>
+    </div>
+</body>
+
+</html>
