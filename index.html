@@ -19,15 +19,15 @@
             <div class="param__item">
                 <label for="size">Size</label>
                 <input class="input-number" type="number" id="size" min="1" max="100" value="16">
-                <button id="generate-grid">generate</button>
+                <button id="generate-grid" onclick="changeSize()">generate</button>
             </div>
             <div class="param__item">
                 <label for="color">Color</label>
                 <input class="input-color" type="color" id="color" value="#000000">
-                <button id="auto-color">Auto</button>
+                <button id="auto-color" onclick="randomColor()">Auto</button>
             </div>
             <div class="param__item">
-                <button id="reset">Reset</button>
+                <button id="reset" onclick="generateGrid(16)">Reset</button>
             </div>
         </div>
         <div class="grid">
